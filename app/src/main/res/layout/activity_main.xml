@@ -16,7 +16,7 @@
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_navigation"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:background="@android:color/white"
             app:menu="@menu/bottom_navigation"/>
@@ -39,6 +39,7 @@
             <FrameLayout
                 android:id="@+id/fragment_container"
                 android:layout_width="match_parent"
+
                 android:layout_height="match_parent"/>
 
         </LinearLayout>
@@ -48,6 +49,7 @@
     android:layout_height="match_parent"
     android:background="#f0f0d0"
     android:fitsSystemWindows="true"
+    android:layout_gravity="start"
     app:headerLayout="@layout/drawer_navigation_header"
     app:itemIconTint="#002E6E"
     app:itemTextColor="@android:color/black"
